@@ -143,7 +143,8 @@
 .about {
     margin-top: 3%;
     margin-bottom: 3%;
-    background-color: ivory ;
+    background-color: rgb(24, 46, 66);
+    color: #f7f7f7;
   }
    
   .about-image {
@@ -170,11 +171,17 @@
     font-size: larger;
   }
 
+  @media screen and (max-width: 900px) {
+    .about-image {
+        display: none;
+    }
+}
+
   /* Carousel */
   #carouselExampleCaptions{
     max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 5%;
     align-items: center;
 }
 

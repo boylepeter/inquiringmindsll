@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/boylepeter/inquiringmindsll/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Inquiring Minds LL
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Description: 
+This is an ecommerce app for a company who makes an presents educational materials for senior care facilities. Our goal was to enable facilities to access these materials without person to person presentations after the global Covid pandemic. 
+## Table of Contents
 
-### Markdown
+-[Description](#description)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+-[Installation](#installation)
 
-```markdown
-Syntax highlighted code block
+-[Instructions](#instructions)
 
-# Header 1
-## Header 2
-### Header 3
+-[Licenses](#licenses)
 
-- Bulleted
-- List
+-[Deployed](#deployed)
 
-1. Numbered
-2. List
+-[Contact](#contact)
 
-**Bold** and _Italic_ and `Code` text
+-[Contributors](#Contributors)
 
-[Link](url) and ![Image](src)
-```
+-[Testing](#Tests)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Installation:
+I utilized HTML, CSS, Javascript, and the PayPal API in production. 
+## Instructions:
+d
+### Licenses: 
+![license](https://img.shields.io/badge/license-mit-red)
+### Deployed: 
+[inquiringminds-ll.com](inquiringminds-ll.com)
 
-### Jekyll Themes
+![image](./assets/images/readmeimg.gif)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/boylepeter/inquiringmindsll/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Contact:
 
-### Support or Contact
+[Github](https://github.com/boylepeter)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[LinkedIn](https://www.linkedin.com/in/peterjosephboyle/)
+
+Email: [Boyle.Peter614@gmail.com](Boyle.Peter614@gmail.com)
+
+### Contributors: 
+None
+

@@ -145,6 +145,7 @@
     margin-bottom: 3%;
     background-color: rgb(24, 46, 66);
     color: #f7f7f7;
+    font-family: 'Arial Narrow', Arial, sans-serif;
   }
    
   .about-image {
@@ -158,10 +159,6 @@
     vertical-align: middle;
   }
 
-  .footer-copyright {
-    color: Black;
-  }
-
   /* About Block */
   .about-block>h2{
     font-size: x-large;
@@ -171,6 +168,7 @@
     font-size: larger;
   }
 
+  /* media query removes founder image if it becomes too squeezed */
   @media screen and (max-width: 900px) {
     .about-image {
         display: none;
@@ -200,8 +198,20 @@
 }
 
 /* Footer */
+.footer {
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+  border: thick solid goldenrod;
+}
 
+.footer-contact {
+  font-size: large;
+}
 
+.footer-disclaimer {
+  margin-top: 10px;
+}
 
 /* Library */
 
@@ -222,23 +232,23 @@
     grid-template-columns: repeat(4, 1fr);
 } */
 
-/* @media (max-width: 1232px) {
-    .library-presentations{
+@media (max-width: 1232px) {
+    .presentation{
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width:950px ) {
-    .library-presentations{
+    .presentation{
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width:630px ) {
-    .library-presentations{
+    .presentation{
         grid-template-columns: 1fr;
     }
-} */
+}
 
 /* Presentations */
 
@@ -247,8 +257,9 @@
     margin: 0 auto;
     max-width: 1170px;
     display: grid;
+    grid-auto-rows: minmax(300px, auto); 
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    grid-column-gap: 1.5 rem;
+    grid-column-gap: 2rem;
     grid-row-gap: 2rem;
 }
 
@@ -264,6 +275,8 @@
 .presentation {
     width: 300px;
     padding: 1rem;
+    /* margin-left: min(2px);
+    margin-right: min(2px); */
     background: white;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     margin: 8px auto;
@@ -301,19 +314,20 @@
   .presentation-img {
     display: block;
     width: 100%;
+    max-width: 100%;
     min-height: 12rem;
     transition: var(--mainTransition);
     height: 170px;
     border-radius: 8px;
   }
 
-                .presentation-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  .presentation-title {
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: large;
   }
 
   .presentation-info {
-      font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
       font-size: medium;
   }
 
@@ -368,6 +382,7 @@
     color: #f4f4f4;
 } */
 
+/* Old media queries */
 /* @media (max-width: 1232px) {
     .presentation {
         width: 360px;

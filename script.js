@@ -107,7 +107,7 @@ class UI {
         }
         itemsTotal += cart.length
         cartTotal.innerText = parseFloat(tempTotal.toFixed(2));
-        cartItems.innerText = itemsTotal;
+        // cartItems.innerText = itemsTotal; (unnecessary at this time)
         cartBadge.innerText = itemsTotal;
     };
 

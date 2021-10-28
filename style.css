@@ -319,6 +319,7 @@
     transition: var(--mainTransition);
     height: 170px;
     border-radius: 8px;
+    object-fit:scale-down;
   }
 
   .presentation-title {

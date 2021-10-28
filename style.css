@@ -595,3 +595,41 @@
       overflow: auto;
       font-family: sans-serif;
   }
+
+  .ad-container {
+    margin: 6px;
+    width: 100%
+  }
+
+  .ad-card-1 {
+    background-color: lightskyblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    width: 10%;
+    margin: 10px;
+    font-family: 'Zen Antique', serif;
+    justify-content: center;
+  }
+
+  .ad-card-2 {
+    background-color: orange;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    width: 10%;
+    margin: 10px;
+    font-family: 'Satisfy', cursive;
+  }
+
+  .halloween{
+    font-family: 'Henny Penny', cursive;
+  }
+
+
+
+  /* 
+  font-family: 'Courgette', cursive;
+font-family: 'Henny Penny', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Zen Antique', serif;
+ */

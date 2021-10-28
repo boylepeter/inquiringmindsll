@@ -600,16 +600,19 @@
 
   .ad-container {
     margin: 6px;
-    width: 100%
+    margin-left: -0.5%;
+    width: 100%;
+    height: 50%
   }
 
   .ad-card-1 {
     background-color: lightskyblue;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
-    margin: 10px, 10px, 10px, 0px;
+    margin: 10px;
     font-family: 'Zen Antique', serif;
     justify-content: center;
+    height: auto;
   }
 
   .ad-card-2 {
@@ -618,6 +621,7 @@
     text-align: center;
     margin: 10px;
     font-family: 'Satisfy', cursive;
+    height: auto;
   }
 
   .halloween{

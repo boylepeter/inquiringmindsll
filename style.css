@@ -134,11 +134,23 @@
     width: 100%;
     margin-left: 0%;
     margin-right: 0%;
+    z-index: 3;
   }
 
   .logo.container {
     width: 100%;
   }
+
+  /* .visit-btn {
+    z-index: 5;
+    background-color: rgb(24, 46, 66);
+    color: goldenrod;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: center;
+  } */
 
 .about {
     margin-top: 3%;
@@ -275,8 +287,8 @@
 .presentation {
     width: 300px;
     padding: 1rem;
-    /* margin-left: min(2px);
-    margin-right: min(2px); */
+    margin-left: min(2px);
+    margin-right: min(2px);
     background: white;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     margin: 8px auto;
@@ -508,6 +520,7 @@
   .cart-item img {
     width: 75px;
     height: 75px;
+    object-fit:scale-down;
   }
 
   .cart-item h4 {
@@ -598,6 +611,8 @@
       font-family: sans-serif;
   }
 
+  /* Library Topper */
+
   .ad-container {
     margin: 6px;
     margin-left: -0.5%;
@@ -609,7 +624,6 @@
     background-color: lightskyblue;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
-    margin: 10px;
     font-family: 'Zen Antique', serif;
     justify-content: center;
     height: auto;
@@ -619,13 +633,48 @@
     background-color: orange;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
-    margin: 10px;
     font-family: 'Satisfy', cursive;
     height: auto;
   }
 
   .halloween{
     font-family: 'Henny Penny', cursive;
+  }
+
+  /* Demo pres */
+  .demo-container {
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    justify-content: center;
+  }
+
+  .demo-btn {
+    background-color: rgb(24, 46, 66);
+    color: goldenrod;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+  }
+
+  .demo-presentation {
+    width: 300px;
+    padding: 1rem;
+    margin-left: min(2px);
+    margin-right: min(2px);
+    background: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .demo-img-container{
+    position: relative;
+    overflow: hidden;
   }
 
 

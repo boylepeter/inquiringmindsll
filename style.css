@@ -633,12 +633,8 @@
     background-color: orange;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Zen Antique', serif;
     height: auto;
-  }
-
-  .halloween{
-    font-family: 'Henny Penny', cursive;
   }
 
   /* Demo pres */

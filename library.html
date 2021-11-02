@@ -43,12 +43,21 @@
 
             </li>
         </ul>
-        <div class="hamburger-menu" onClick={click}>
+        <div class="hamburger-menu" onclick="toggleSidebar()">
             <div></div>
             <div></div>
             <div></div>
         </div>
     </nav>
+    <div class="sidebar-overlay">
+        <div class="sidebar">
+          <div class="sidebar-close"><i class="far fa-times-circle fa-3x" onclick="toggleSidebar()"></i></div>
+          <ul class="sidebar-links">
+            <li class="sidebar-links"><a href="index.html" class="sidebar-links">Home</a></li>
+            <li class="sidebar-links"><a href="library.html" class="sidebar-links">Library</a></li>
+          </ul>
+        </div>
+      </div>
     <div class="popup" id="popup">
         <div class="approvalOverlay"></div>
         <div class="content">

@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>Inquriring Minds</title>
 </head>
@@ -33,12 +34,21 @@
       <li class="navbar-links"><a href="index.html">Home</a></li>
       <li class="navbar-links"><a href="library.html">Library</a></li>
     </ul>
-    <div class="hamburger-menu" onClick={click}>
+    <div class="hamburger-menu" onclick="toggleSidebar()">
       <div></div>
       <div></div>
       <div></div>
     </div>
   </nav>
+  <div class="sidebar-overlay">
+    <div class="sidebar">
+      <div class="sidebar-close"><i class="far fa-times-circle fa-3x" onclick="toggleSidebar()"></i></div>
+      <ul class="sidebar-links">
+        <li class="sidebar-links"><a href="index.html" class="sidebar-links">Home</a></li>
+        <li class="sidebar-links"><a href="library.html" class="sidebar-links">Library</a></li>
+      </ul>
+    </div>
+  </div>
   <div class="logo-container">
     <img class="mainLogo img-responsive img-fluid" src="./assets/images/welcomeImg.jpg" alt="Inquiring Minds Logo" />
   </div>
@@ -66,7 +76,9 @@
       <div class="col-sm-6 about-block">
         <h2>About Inquiring Minds Lifelong Learning</h2>
         <p>Inquiring Minds Lifelong Learning is a learning, education, and entertainment resource. We focus on providing
-          materials to our fellow senior citizens and their caretakers in an effort to ensure people never stop learning. A nimble mind is something the body can follow, and continuing to learn at all ages is imperative to everyone's health and well being.</p>
+          materials to our fellow senior citizens and their caretakers in an effort to ensure people never stop
+          learning. A nimble mind is something the body can follow, and continuing to learn at all ages is imperative to
+          everyone's health and well being.</p>
       </div>
     </div>
   </div>

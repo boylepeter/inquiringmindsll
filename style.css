@@ -109,7 +109,7 @@
 }
 
 .hamburger-menu:hover > div {
-    background-color: rgb(185, 99, 247);
+    background-color: rgb(86, 207, 255);
 }
 
 @media (max-width: 960px) {
@@ -125,6 +125,56 @@
     .navbar-logo h2 {
         font-size: 1rem;
     }
+}
+
+/* Sidebar */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: var(--mainTransition);
+  background: rgba(219, 226, 247, 0.5);
+  z-index: 9;
+  visibility: hidden;
+}
+
+.sidebar {
+  position: fixed;
+  margin-bottom: 100px;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  overflow:auto;
+  z-index: 10;
+  background: rgb(231, 226, 221);
+  padding: 1.5rem;
+  transition: var(--mainTransition);
+  transform: translateX(-100%);
+}
+
+.showSidebar {
+  transform: translateX(0%);
+}
+
+.showSidebarOverlay {
+  visibility: visible;
+}
+
+.sidebar-links {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 30%;
+}
+
+.sidebar-close {
+  text-align: right;
+  
 }
 
 /* Main Page CSS */
@@ -185,6 +235,24 @@
     .about-image {
         display: none;
     }
+}
+
+@media screen and (max-width: 910px) {
+  .ad-card-1 {
+      display: none;
+  }
+  .ad-card-2{
+      display: none;
+  }
+  .demo-container {
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .demo-container {
+    margin-left: 10%;
+  }
 }
 
   /* Carousel */

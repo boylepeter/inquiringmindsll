@@ -9,6 +9,10 @@ const cartItems = document.querySelector('.cart-item');
 const cartBadge = document.querySelector('.cart-badge');
 const cartTotal = document.querySelector('.cart-total');
 const libraryDOM = document.querySelector('.library-container');
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const sidebarOverlay = document.querySelector('.sidebar-overlay');
+const sidebar = document.querySelector('.sidebar');
+
 
 let cart = [];
 let buttonsDOM = [];
@@ -203,3 +207,13 @@ document.addEventListener("DOMContentLoaded", () => {
         ui.cartMaint();
     })
 });
+
+function toggleSidebar(){
+    if (sidebar.classList.contains('showSidebar')){
+        sidebar.classList.remove('showSidebar');
+        sidebarOverlay.classList.remove('showSidebarOverlay');
+    } else {
+    sidebarOverlay.classList.add('showSidebarOverlay');
+    sidebar.classList.add('showSidebar');
+    }};
+// hamburgerMenu.addEventListener('click', toggleSidebar());

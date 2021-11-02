@@ -697,6 +697,10 @@
     height: auto;
   }
 
+  .ad-card-1-text {
+    margin-top: 25%;
+  }
+
   .ad-card-2 {
     background-color: orange;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

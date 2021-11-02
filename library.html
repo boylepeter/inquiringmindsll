@@ -20,13 +20,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Henny+Penny&family=Roboto:ital,wght@1,900&family=Satisfy&family=Zen+Antique&display=swap" rel="stylesheet">
-    <script src="https://www.paypal.com/sdk/js?client-id=AQgIUf3Mtj1cnx-ciOGQTzeZG3X3rJIzd7xfuElWm_w4xQ7tox6C7fob9uNIrZ1wSpvVHlOaxuQJogEl&currency=USD"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Henny+Penny&family=Roboto:ital,wght@1,900&family=Satisfy&family=Zen+Antique&display=swap"
+        rel="stylesheet">
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=AQgIUf3Mtj1cnx-ciOGQTzeZG3X3rJIzd7xfuElWm_w4xQ7tox6C7fob9uNIrZ1wSpvVHlOaxuQJogEl&currency=USD"></script>
     <title>IM Library</title>
 </head>
-
 <body>
     <nav class="navbar">
         <div class="navbar-logo"><a href="/">
@@ -37,9 +39,9 @@
             <li class="navbar-links"><a href="index.html">Home</a></li>
             <li class="navbar-links"><a href="library.html">Library</a></li>
             <li class="navbar-links cart-link cart-btn">
-                    <i class="fas fa-shopping-cart nav-cart-img"></i>
-                    <span class="cart-span">Cart</span>
-                    <span class="cart-badge"></span>
+                <i class="fas fa-shopping-cart nav-cart-img"></i>
+                <span class="cart-span">Cart</span>
+                <span class="cart-badge"></span>
 
             </li>
         </ul>
@@ -51,56 +53,68 @@
     </nav>
     <div class="sidebar-overlay">
         <div class="sidebar">
-          <div class="sidebar-close"><i class="far fa-times-circle fa-3x" onclick="toggleSidebar()"></i></div>
-          <ul class="sidebar-links">
-            <li class="sidebar-links"><a href="index.html" class="sidebar-links">Home</a></li>
-            <li class="sidebar-links"><a href="library.html" class="sidebar-links">Library</a></li>
-          </ul>
+            <div class="sidebar-close"><i class="far fa-times-circle fa-3x" onclick="toggleSidebar()"></i></div>
+            <ul class="sidebar-links">
+                <li class="sidebar-links"><a href="index.html" class="sidebar-links">Home</a></li>
+                <li class="sidebar-links"><a href="library.html" class="sidebar-links">Library</a></li>
+            </ul>
         </div>
-      </div>
+    </div>
     <div class="popup" id="popup">
         <div class="approvalOverlay"></div>
         <div class="content">
             <div class="close-popup" onclick="togglePopup()">&times;</div>
-            <div>Thank you for your purchase. We hope you will enjoy your presentation(s). Please copy the links below to download and/or view them. Please keep these links for your records as you can use these presentations as many times as you like!</div>
+            <div>Thank you for your purchase. We hope you will enjoy your presentation(s). Please copy the links below
+                to download and/or view them. Please keep these links for your records as you can use these
+                presentations as many times as you like!</div>
             <div class="receiptBox" id="receiptBox"></div>
-            <div>If you have any difficulty with viewing or downloading your presentation(s) please feel free to contact us at rosanne.losee@gmail.com</div>
+            <div>If you have any difficulty with viewing or downloading your presentation(s) please feel free to contact
+                us at rosanne.losee@gmail.com</div>
         </div>
     </div>
     <div class="ad-container">
         <div class="row">
-
-            <div class= "col-4 ad-card-1">
-                <h2 style="text-decoration: underline;">Pricing and Deals</h2>
-                <br>
-                <h4>1 Presentation... $100</h4>
-                <h4>3 Presentations... $250</h4>
-                <h4>5 Presentations... $400</h4>
-                <br>
-                <h5 style="font-weight: bold;">Make sure to check back frequently, as we are always adding to our library!</h5>
+            <div class="col-4 ad-card-1">
+                <div class="ad-card-1-text">
+                    <h2 style="text-decoration: underline;">Pricing and Deals</h2>
+                    <br>
+                    <h4>1 Presentation... $100</h4>
+                    <h4>3 Presentations... $250</h4>
+                    <h4>5 Presentations... $400</h4>
+                    <br>
+                    <h5 style="font-weight: bold;">Make sure to check back frequently, as we are always adding to our
+                        library!</h5>
+                </div>
             </div>
             <div class="col-4 demo-container">
                 <article class="demo-presentation">
                     <div class="demo-img-container">
                         <img src="./assets/images/gershwin.jpg" alt="George Gershwin" class="presentation-img"></img>
                         <h4 class="presentation-title">Unforgettable American Composers: George Gershwin<h4>
-                        <p class="presentation-info">A true American icon Gershwin has written pieces that captured the essence of a generation and will be remembered for all time<p>
-                        <button class="demo-btn"><a class="demo-btn" href="https://drive.google.com/file/d/1mqGYxc7ZGmgNPuy7LYMW25KPo129OoAO/view?usp=sharing">Try Demo</a>
-                        </button>
+                                <p class="presentation-info">A true American icon Gershwin has written pieces that
+                                    captured the essence of a generation and will be remembered for all time
+                                <p>
+                                    <button class="demo-btn"><a class="demo-btn"
+                                            href="https://drive.google.com/file/d/1mqGYxc7ZGmgNPuy7LYMW25KPo129OoAO/view?usp=sharing">Try
+                                            Demo</a>
+                                    </button>
                     </div>
                 </article>
             </div>
-            <div class= "col-4 ad-card-2">
+            <div class="col-4 ad-card-2">
                 <h2>Dont forget to purchase your holiday presentations!</h2>
-                <h5>Halloween is here! Try out </h5><h4 style="font-weight: bolder;">"History's Mysteries"</h4><h5> to put a little chill in your bones</h5>
-                <h5>Veteran's Day is right around the corner, </h5><h4 style="font-weight: bolder;">"For Our Veterans: Tribute and Rememberance"</h4><h5> is available now</h5>
-                <h4 style="font-weight: bolder;">"A Time for Family: Thanksgiving"</h4><h5> will make Thanksgiving day complete</h5>
-                <h5>Make sure to get a jump on the winter festivities with one of our Christmas and Hanukkah presentations!</h5>
+                <h5>Veteran's Day is right around the corner, </h5>
+                <h4 style="font-weight: bolder;">"For Our Veterans: Tribute and Rememberance"</h4>
+                <h5> is available now</h5>
+                <h4 style="font-weight: bolder;">"A Time for Family: Thanksgiving"</h4>
+                <h5> will make Thanksgiving day complete</h5>
+                <h5>Make sure to get a jump on the winter festivities with one of our Christmas and Hanukkah
+                    presentations!</h5>
             </div>
         </div>
     </div>
     <div class="library-container">
-           <!-- Dynamic population -->
+        <!-- Dynamic population -->
     </div>
     <div class="cart-overlay">
         <div class="cart">
@@ -121,52 +135,52 @@
     </div>
     <script src="script.js"></script>
     <script>
-        function togglePopup(){
+        function togglePopup() {
             document.getElementById("popup").classList.toggle("active")
         }
     </script>
     <script>
         paypal.Buttons({
-  
-          // Sets up the transaction when a payment button is clicked
-          createOrder: function(data, actions) {
-            return actions.order.create({
-              purchase_units: [{
-                amount: {
-                  value: document.querySelector(".cart-total").innerHTML // Can reference variables or functions. Example: `value: document.getElementById('...').value`
-                }
-              }]
-            });
-          },
-  
-          // Finalize the transaction after payer approval
-          onApprove: function(data, actions) {
-              togglePopup()
-            return actions.order.capture().then(function(orderData) {
-              // Successful capture! For dev/demo purposes
-                  console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                  var transaction = orderData.purchase_units[0].payments.captures[0];
-                //   alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
-                const cartApprove = JSON.parse(localStorage.getItem('cart'))
-                const receiptBox = document.getElementById("receiptBox");
-                for (let i=0; i<cartApprove.length; i++){
+
+            // Sets up the transaction when a payment button is clicked
+            createOrder: function (data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: document.querySelector(".cart-total").innerHTML // Can reference variables or functions. Example: `value: document.getElementById('...').value`
+                        }
+                    }]
+                });
+            },
+
+            // Finalize the transaction after payer approval
+            onApprove: function (data, actions) {
+                togglePopup()
+                return actions.order.capture().then(function (orderData) {
+                    // Successful capture! For dev/demo purposes
+                    console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                    var transaction = orderData.purchase_units[0].payments.captures[0];
+                    //   alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
+                    const cartApprove = JSON.parse(localStorage.getItem('cart'))
+                    const receiptBox = document.getElementById("receiptBox");
+                    for (let i = 0; i < cartApprove.length; i++) {
                         const newLink = document.createElement("div");
                         newLink.innerHTML = `
                             <h5>${cartApprove[i].title}</h5>
                             <p>${cartApprove[i].driveUrl}</p>`
-                        receiptBox.appendChild(newLink);   
-            };
-                
-              // When ready to go live, remove the alert and show a success message within this page. For example:
-              // var element = document.getElementById('paypal-button-container');
-              // element.innerHTML = '';
-              // element.innerHTML = '<h3>Thank you for your payment!</h3>';
-              // Or go to another URL:  actions.redirect('thank_you.html');
-            });
-          }
+                        receiptBox.appendChild(newLink);
+                    };
+
+                    // When ready to go live, remove the alert and show a success message within this page. For example:
+                    // var element = document.getElementById('paypal-button-container');
+                    // element.innerHTML = '';
+                    // element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                    // Or go to another URL:  actions.redirect('thank_you.html');
+                });
+            }
         }).render('#paypal-button-container');
-  
-      </script>
+
+    </script>
 </body>
 
 </html>

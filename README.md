@@ -2,7 +2,7 @@
 # Inquiring Minds LL
 
 ## Description: 
-This is an ecommerce app for a company who makes an presents educational materials for senior care facilities. Our goal was to enable facilities to access these materials without person to person presentations after the global Covid pandemic. 
+This is an ecommerce app for a company who makes and presents educational materials for senior care facilities. Our goal was to enable facilities to access these materials without person to person presentations after the global Covid pandemic. 
 ## Table of Contents
 
 -[Description](#description)
@@ -24,7 +24,7 @@ This is an ecommerce app for a company who makes an presents educational materia
 ## Installation:
 I utilized HTML, CSS, Javascript, and the PayPal API in production. 
 ## Instructions:
-d
+Please feel free to visit the page below, the site is easy to use and easily navigable
 ### Licenses: 
 ![license](https://img.shields.io/badge/license-mit-red)
 ### Deployed: 

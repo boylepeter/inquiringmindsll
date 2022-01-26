@@ -277,6 +277,11 @@
     margin-right: 12%;
 }
 
+.carousel-item {
+  object-fit: contain;
+  max-height: 600px;
+}
+
 /* Footer */
 .footer {
   margin-top: 10px;

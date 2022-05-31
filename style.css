@@ -280,7 +280,8 @@
 .carousel-item {
   object-fit: contain;
   max-height: 600px;
-  margin-bottom: 5%;
+  /* margin-bottom added for godfather img, remove upon rotation out of carousel */
+  margin-bottom: 10%;
 }
 
 /* Footer */

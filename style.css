@@ -208,6 +208,7 @@
     background-color: rgb(24, 46, 66);
     color: #f7f7f7;
     font-family: 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px black;
   }
    
   .about-image {
@@ -224,10 +225,12 @@
   /* About Block */
   .about-block>h2{
     font-size: x-large;
+    text-shadow: 2px 2px 4px black;
   }
     
   .about-block>p{
     font-size: larger;
+    text-shadow: 2px 2px 4px black;
   }
 
   /* media query removes founder image if it becomes too squeezed */
@@ -261,6 +264,7 @@
     margin-left: 10%;
     margin-right: 5%;
     align-items: center;
+    text-shadow: 2px 2px 4px black;
 }
 
 .carousel-link{
@@ -275,6 +279,7 @@
 
 .carousel-control-next{
     margin-right: 12%;
+    text-shadow: 2px 2px 4px black;
 }
 
 .carousel-item {

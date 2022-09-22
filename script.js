@@ -80,34 +80,34 @@ class UI {
         let tempTotal = 0;
         let itemsTotal = 0;
         if (cart.length === 1){
-            tempTotal += 100
+            tempTotal += 75
         }
         else if (cart.length === 2){
-            tempTotal += 200
+            tempTotal += 150
         }
         else if (cart.length === 3){
-            tempTotal += 250
+            tempTotal += 200
         }
         else if (cart.length === 4){
-            tempTotal += 350
+            tempTotal += 275
         }
         else if (cart.length === 5){
-            tempTotal += 400
+            tempTotal += 350
         }
         else if (cart.length === 6){
-            tempTotal += 500
+            tempTotal += 400
         }
         else if (cart.length === 7){
-            tempTotal += 600
+            tempTotal += 475
         }
         else if (cart.length === 8){
-            tempTotal += 650
+            tempTotal += 550
         }
         else if (cart.length === 9){
-            tempTotal += 750
+            tempTotal += 600
         }
         else if (cart.length === 10){
-            tempTotal += 800
+            tempTotal += 675
         }
         itemsTotal += cart.length
         cartTotal.innerText = parseFloat(tempTotal.toFixed(2));

@@ -121,7 +121,7 @@ class UI {
         div.innerHTML = `
         <img src=${item.imgUrl} alt=${item.alt} class="cart-img" />
         <h4>${item.title}</h4>
-        <h5>$100</h5>
+        <h5>$75</h5>
         <span class="remove-item" data-id=${item.id}>Remove</span>`
         cartContent.appendChild(div);
     };
